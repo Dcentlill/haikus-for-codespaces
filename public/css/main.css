@@ -1,9 +1,12 @@
-body {
+target 'YourTargetName' do
+    use_frameworks!
+    pod 'CocoaDebug', :configurations => ['Debug']
+endbody {
     background-color: #2a2b2f; 
     display: flex; 
     flex-direction: column;
     justify-content: center; 
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-family: ""HelveticaNeue-Light"", ""Helvetica Neue Light"", ""Helvetica Neue"", Helvetica, Arial, ""Lucida Grande"", sans-serif; 
     font-weight: 300;
     color: #fff;
     text-align:center;
@@ -33,4 +36,7 @@ body {
     .haikus {
         font-size: 22px;
     }
-}
+}target 'YourTargetName' do
+    use_frameworks!
+    pod 'CocoaDebug', :configurations => ['Debug']
+end
